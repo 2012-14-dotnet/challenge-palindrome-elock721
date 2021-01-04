@@ -8,7 +8,7 @@ namespace Palindrome.Client
         {
          
         }
-        
+
         public static bool IsPalindrome(string str)
         {
             string reversedstring = "";
@@ -17,6 +17,6 @@ namespace Palindrome.Client
                 reversedstring += str[i];
             }
             return str.Equals(reversedstring); 
-        }
+        }    
     }
 }
